@@ -1,0 +1,286 @@
+:root {
+    --primary-text-color: #212121;
+    --sacondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+ul {
+
+}
+/*Header*/
+
+.header {
+    background-color: #ECECEC;
+    
+}
+
+.logo-link {
+    color: var(--accent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+    cursor: pointer;
+
+    text-decoration: none;
+}
+
+.logo-word {
+    color: #000000;
+}
+
+.nav {
+   
+}
+
+.nav-list {
+    
+}
+
+.nav-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+
+    text-decoration: none;
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: var(--accent-color);
+}
+
+.nav-list-link.current {
+    color: var(--accent-color);
+}
+
+.contacts {
+
+}
+
+.header-contacts 
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--sacondary-text-color);
+
+    text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
+/*Main WebStudio*/
+
+.list {
+    list-style-type: none;
+}
+
+/*Hero*/
+.hero {
+    background-color: #2F303A;
+}
+
+.page-title {
+   
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,4px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+
+
+}
+
+.hero-button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,9px;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border-color: var(--accent-color);
+    width: 215px;
+    height: 50px;
+
+    cursor: pointer;
+}
+
+.hero-button:hover 
+.hero-button:focus {
+
+}
+
+.hidden-title {
+    
+}
+
+.studio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/*Work*/
+
+.tasks-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.tasks-text {
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: var(--sacondary-text-color);
+
+}
+
+.work-img {
+
+}
+
+/*Team*/
+.team {
+    background-color: #FFFFFF;
+}
+
+.team-photo {
+
+}
+
+.team-photo-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.team-photo-title {
+    font-size: 16px;
+    line-height: 1.2;
+
+    color: var(--sacondary-text-color);
+}
+
+/* Main Portfolio */
+/* Filer */
+
+:root {
+    /* --primary-text-color: #212121;
+    --sacondary-text-color: #757575;
+    --accent-color: #2196F3; */
+    --socials-block-color: #F5F4FA; 
+}
+.section-portfolio {
+
+}
+
+.filter-buttons {
+    
+
+}
+
+.filter-button-list {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+
+    background-color: var(--socials-block-color);  
+    color: var(--primary-text-color); 
+    border-color: var(--socials-block-color); 
+
+    cursor: pointer;
+}
+
+.filter-button-list:hover,
+.filter-button-list:focus {
+    background-color:var(--accent-color);
+    color: #ffffff;
+    border-color: var(--accent-color);
+}
+
+/* Project */
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
+.project-subtitle {
+    font-size: 16px;
+    line-height: 1.9;
+    
+    color: var(--sacondary-text-color);
+}
+
+.project-list-link {
+    text-decoration: none;
+}
+
+.project-list {
+    background-color: #FFFFFF;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo-word {
+    color: #ffffff;
+}
+
+.address {
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: #ffffff;
+}
+
+.address 
+.contact-link {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
