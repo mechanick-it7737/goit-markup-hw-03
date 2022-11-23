@@ -9,11 +9,6 @@ html {
     box-sizing: border-box;
 }
 
-*, *::before,
-*::after {
-    box-sizing: inherit;
-}
-
 body {
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
@@ -319,6 +314,8 @@ h1, h2, h3, h4, p {
 
     border-radius: 4px;
     padding: 6px 22px;
+
+    min-width: 73px;
 
     cursor: pointer;
 }
